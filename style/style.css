@@ -3,7 +3,46 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-    background-color: green;
-    color: wheat;
+.primary_color{
+    color: rgba(253, 110, 10, 1);
+}
+.bg_primary{
+    background-color: rgba(253, 110, 10, 1);
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* header section  */
+.header{
+    padding: 0 100px;
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+}
+#mary{
+    font-family: opnsen 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-right: 51px;  
+}
+
+ul li a{
+   text-decoration: none;  
+}
+
+#btn_primary{
+    padding: 18px 30px;
+    border: none;
+    border-radius: 5px;
 }
