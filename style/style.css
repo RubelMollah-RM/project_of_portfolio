@@ -1,0 +1,9 @@
+body {
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    background-color: green;
+    color: wheat;
+}
