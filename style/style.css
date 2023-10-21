@@ -159,5 +159,33 @@ ul li a{
 }
 .download_btn{
     text-align: center;
+    margin-top: 100px;
+}
+
+/* footer section  */
+
+.footer_section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 100px;
+    background-color: rgba(255, 248, 243, 1);
     margin-top: 50px;
+
+}
+.contact_section{
+    width: 700px;
+    padding: 70px;
+}
+.name{
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+}
+.email{
+    padding: 10px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
